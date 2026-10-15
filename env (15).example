@@ -1,0 +1,24 @@
+# Nusxa oling: cp .env.example .env  va qiymatlarni to'ldiring. .env ni GITGA QO'SHMANG.
+APP_ENV=development
+LOG_LEVEL=INFO
+
+POSTGRES_USER=vb
+POSTGRES_PASSWORD=change-me
+POSTGRES_DB=vb
+
+# openssl rand -hex 32
+JWT_SECRET=
+# @BotFather bergan token va bot username (@ belgisiz)
+BOT_TOKEN=
+BOT_USERNAME=
+
+# To'lov: hozircha faqat "test". Haqiqiy provayder adapteri yozilmaguncha test rejimida qoladi.
+PAYMENT_PROVIDER=test
+PAYMENT_SECRET=
+
+PUBLIC_WEB_URL=http://localhost:3000
+CORS_ORIGINS=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+
+# Ixtiyoriy monitoring
+SENTRY_DSN=
